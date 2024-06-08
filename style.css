@@ -3,7 +3,7 @@ html {
   width: 100%;
 }
 body {
-  background-color: #999;
+  background-color: #3c3c3c;
   color: whitesmoke;
 }
 
@@ -27,7 +27,7 @@ body {
 .top-bar,
 .bottom-bar {
   background-image: url('code.gif');
-  height: 10px; /* Height of the bar */
+  height: 13px; /* Height of the bar */
   width: 100%;
   position: fixed; 
   left: 0;
