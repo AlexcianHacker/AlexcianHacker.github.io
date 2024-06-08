@@ -23,3 +23,13 @@ body {
   color: rgb(161, 161, 161);
   transition: 500ms;
 }
+
+.top-bar,
+.bottom-bar {
+  background-image: url('code.gif');
+  height: 10px; /* Height of the bar */
+  width: 100%;
+  position: fixed; 
+  left: 0;
+  right: 0;
+}
