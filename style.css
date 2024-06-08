@@ -33,3 +33,12 @@ body {
   left: 0;
   right: 0;
 }
+
+
+.top-bar {
+  top: 0;
+}
+
+.bottom-bar {
+  bottom: 0;
+}
