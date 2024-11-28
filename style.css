@@ -42,3 +42,27 @@ body {
 .bottom-bar {
   bottom: 0;
 }
+
+It's some gradients stacked on top of each other with varying angles:
+
+background-image: linear-gradient(190deg,    
+      rgba(7, 142, 112, 0.5),    
+      rgba(38, 207, 170, 0.5),    
+      rgba(153, 232, 193, 0.5),    
+      rgba(123, 173, 226, 0.5),    
+      rgba(79, 72, 203, 0.5),    
+      rgba(61, 26, 119, 0.5)),    
+    linear-gradient(185deg,    
+      rgba(7, 142, 112, 0.5),    
+      rgba(38, 207, 170, 0.5),    
+      rgba(153, 232, 193, 0.5),    
+      rgba(123, 173, 226, 0.5),    
+      rgba(79, 72, 203, 0.5),    
+      rgba(61, 26, 119, 0.5)),    
+    linear-gradient(to bottom,    
+      rgb(7, 142, 112),    
+      rgb(38, 207, 170),    
+      rgb(153, 232, 193),    
+      rgb(123, 173, 226),    
+      rgb(79, 72, 203),    
+      rgb(61, 26, 119));
