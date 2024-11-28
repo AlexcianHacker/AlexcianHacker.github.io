@@ -44,6 +44,12 @@ body {
 }
 
 
+#wrapper { 
+  position: relative;
+  z-index: 2;
+}
+
+
 #background {
   position: fixed;
   z-index: 0;
